@@ -2,8 +2,7 @@
 <html lang="en">
   <head>
     <title>
-      AC<sup>2</sup>: Towards Understanding Architectural Changes in Python
-      Projects
+      ReadmeTKG
     </title>
     <!-- Meta -->
     <meta charset="utf-8" />
@@ -42,7 +41,7 @@
               <a href="index.html">
                 <!--                             <span aria-hidden="true" class="icon_documents_alt icon"></span> -->
                 <span class="text-highlight">
-                  T<span class="text-small">emporal</span>TKG </span
+                  R<span class="text-small">eadme</span>TKG </span
                 ><span class="text-bold">Docs</span>
               </a>
             </h1>
@@ -67,53 +66,57 @@
                     <h1 class="doc-title"><i class="icon fa fa-paper-plane"></i> Quick Start</h1>
                     <div class="meta"><i class="far fa-clock"></i> Last updated: Nov 21st, 2020</div>
                 </div>//doc-header -->
-          <div class="doc-body row">
-            <div class="doc-content col-md-9 col-12 order-1">
-              <div class="content-inner">
-                <section id="download-section" class="doc-section">
-                  '
-                  <h1 class="section-title">
-                    ReadmeTKG - A Tool Towards Generating Temporal
-                    KnowledgeGraph For Readme Files
-                  </h1>
-                  <br />
-                  <h3 class="block-title">Tool Description</h3>
-                  <div class="section-block">
-                    <p>
-                      AC<sup>2</sup> is used to comprehend the architecture
-                      changes in a software system over multiple releases for
-                      python projects. Many open source repositories have faster
-                      release cycles. More releases in less time leads to
-                      frequent changes in the system. Understanding the impact
-                      of these regular changes in the term of architecture is
-                      important as it will decide the system stability.
-                      Therefore comprehending architectural changes visually
-                      allows the user to get a better understanding of the
-                      growing complexity of their software. TO BE UPDATED
-                    </p>
-                    <!-- <a href="https://github.com/rishitha957/ADepD/archive/main.zip" class="btn btn-green" target="_blank"><i class="fas fa-download"></i> Download Tool Zip</a> -->
-                  </div>
-                </section>
-                <!--//doc-section-->
-                <section id="installation-section" class="doc-section">
-                  <h2 class="section-title">Installation</h2>
-                  <div id="step1" class="section-block">
-                    <h3 class="block-title">From Github</h3>
-                    <div class="code-block">
-                      <p>Clone or download this github repository:</p>
-                      <p><code>git clone </code></p>
-                      <p>Get into the main directory:</p>
-                      <p><code>cd AC2/src/main</code></p>
-                      <p>Install the requirements:</p>
-                      <p><code>pip install -r requirements.txt</code></p>
-                      <p>To start the server use the following command:</p>
-                      <p><code>python main.py</code></p>
-                      <p>Then, open your browser to 'http://localhost:5000/'</p>
-                    </div>
-                    <!--//code-block-->
-                  </div>
-                  <!--//section-block-->
-                </section>
+                <div class="doc-body row">
+                    <div class="doc-content col-md-9 col-12 order-1">
+                        <div class="content-inner">
+                            <section id="download-section" class="doc-section">'
+                                <h1 class="section-title">ReadmeTKG - A Tool Towards Generating Temporal KnowledgeGraph For Readme Files</h1>
+                                <br>
+                                <h3 class="block-title">Tool Description</h3>
+                                <div class="section-block">
+                                    <p> AC<sup>2</sup> is used to comprehend the architecture changes in a software system over multiple releases for python projects. Many open source repositories have faster release cycles. 
+                                        More releases in less time leads to frequent changes 
+                                        in the system. Understanding the impact of these regular 
+                                        changes in the term of architecture is important as it will 
+                                        decide the system stability. Therefore comprehending architectural 
+                                        changes visually allows the user to get a better understanding 
+                                        of the growing complexity of their software. 
+                                        TO BE UPDATED
+                                    </p>
+                                    <!-- <a href="https://github.com/rishitha957/ADepD/archive/main.zip" class="btn btn-green" target="_blank"><i class="fas fa-download"></i> Download Tool Zip</a> -->
+                                </div>
+                            </section><!--//doc-section-->
+                            <section id="installation-section" class="doc-section">
+                                <h2 class="section-title">Installation</h2>
+                                <div id="step1"  class="section-block">
+                                    <h3 class="block-title">From Github</h3>
+                                    <div class="code-block">
+                                        
+                                        <p>Create and activate a new python3 virtual environment:</p>
+                                        <p><code>python(3) -m venv &ltpath_to_env/env_name&gt&lt/path_to_env&gt</code></p>
+
+                                        <p>Clone or download this github repository:</p>
+                                        <p><code>git clone https://github.com/mir-sam-ali/github-kg.git</code></p>
+
+                                        <p>Get into the main directory:</p>
+                                        <p><code>cd github-kg</code></p>
+
+                                        <p>Install the requirements:</p>
+                                        <p><code>pip install -r requirements.txt</code></p>
+
+                                        <p>Download files from link below:</p>
+                                        <p><code>https://drive.google.com/drive/u/0/folders/1PAfDRv2lMBX3x9Y4YZtO1kcqJzAPTh7t</code></p>
+
+                                        <p>Install the requirements:</p>
+                                        <p><code>pip install -r requirements.txt</code></p>
+
+                                        <p>Generate Knowledge Graph:</p>
+                                        <p><code>python(3) main.py "&ltusername/reponame&gt"</code></p>
+                                        
+                                    </div><!--//code-block-->
+                                </div><!--//section-block-->
+                            </section><!--//doc-section-->
+                            
                 <!--//doc-section-->
                 <section id="icons-section" class="doc-section">
                   <h2 class="section-title">Approach diagram</h2>
@@ -189,53 +192,14 @@
                 </section>
                 <!--//doc-section-->
 
-                <section id="metric-section" class="doc-section">
-                  <h2 class="section-title">Metrics used in AC<sup>2</sup></h2>
-                  <div class="section-block">
-                    <strong>Cohesion using LCOM4</strong>: It measures the
-                    degree to which componentsare functionally related. The
-                    values are stored in seperate files for each version.
-                    <br /><br />
-                    <strong>A2A (Architecture-to-architecture)</strong>: It
-                    gives the similarity measure of the component-level changes
-                    between thearchitectures between two releases. We modified
-                    the original A2A metric in the context of AC2 tool to get
-                    the following metrics: <br /><br />
-                    <ul>
-                      <li>
-                        <strong>Architectural Similarity</strong>: It is
-                        calculated using directory viewwhere directory is
-                        considered as a component and files as its entities.
-                      </li>
-                      <li>
-                        <strong>Functional Similarity</strong>: We use call
-                        graphs to calculate the funcitonal similarity in which
-                        function calls and definitions are considered as
-                        entities.
-                      </li>
-                      <li>
-                        <strong>Class Similarity</strong>: For this metric, we
-                        use collaboration graphs, the class definitions are
-                        considered as the entities.
-                      </li>
-                      <li>
-                        <strong>Module Similarity</strong>: Similarily we use
-                        modules as entities for this metric.
-                      </li>
-                    </ul>
-                  </div>
-                </section>
-                <!--//doc-section-->
-
                 <section id="result-section" class="doc-section">
                   <h2 class="section-title">Results</h2>
                   <div class="section-block">
-                    We have evaluated 10 repositories using AC<sup>2</sup>. For
-                    each repository, we have compared its first release with its
-                    subsequent releases.
+                    We have evaluated run the KG generator on 10 repositories. For
+                    each repository, we have generate KG of final Readme and KG for commits history.
                     <strong
                       ><a
-                        href="https://github.com/rishalab/AC2/tree/master/Results"
+                        href="https://docs.google.com/spreadsheets/d/1W8J1GFwIqktN4ymqIc3NrQXWhhatRPI3_ma6rCZEuJM/edit?usp=sharing"
                         >Results</a
                       ></strong
                     >
@@ -252,7 +216,7 @@
                           <iframe
                             width="560"
                             height="315"
-                            src="https://www.youtube.com/embed/GNrJfZ0RCVI"
+                            src="https://www.youtube.com/watch?v=Vg_RD_q0HpA"
                             frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen
@@ -320,7 +284,7 @@
               <div class="content-holder-inner">
                 <div class="desc">
                   <h3 class="promo-title">Contributors</h3>
-                  <p>A Eashaan Rao, Dheeraj Vagavolu, Sridhar Chimalakonda</p>
+                  <p>Akhila Sri Manasa Venigalla - Mir Sameed Ali - Nikhil M - Sridhar Chimalakonda</p>
                   <a class="btn btn-cta" href="" target="_blank"
                     ><i class="fas fa-external-link-alt"></i> Preprint</a
                   >
