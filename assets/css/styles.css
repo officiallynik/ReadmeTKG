@@ -395,6 +395,10 @@ select {
   color: #fff;
 }
 
+.branding .text-small {
+  text-transform: lowercase;
+}
+
 .branding .icon {
   font-size: 24px;
   color: #40babd;
